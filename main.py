@@ -37,10 +37,10 @@ import sys
 import time
 from TwitterAPI import TwitterAPI
 import tweepy
-consumer_key = 'CannCQY7FIhR78gHGiNhzX4Vi'
-consumer_secret = '76HefVXs6YiEHyh7vPB19zu5KcCibEQLhTgx6SFxYW64LxFaGC'
-access_token = '772923381276676100-uo7dxshdJv3Iel9sbtGSuW0hJSwrTPZ'
-access_token_secret = '48jXorG7hWN8QkqjT3oIOw0ufFURvvwSdcpP8jxs2027k'
+consumer_key = '************************'
+consumer_secret = '**********************************************'
+access_token = '****************************************************'
+access_token_secret = '**********************************************'
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
