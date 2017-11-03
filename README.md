@@ -12,11 +12,12 @@
 
 Twitter
 
-##Prerequisite modules
+## Prerequisite modules
 
-networkx
+• networkx
 
 Download http://networkx.github.io/ or pip install networkx
-TwitterAPI
+
+• TwitterAPI
 
 Download https://github.com/geduldig/TwitterAPI or pip install TwitterAPI
