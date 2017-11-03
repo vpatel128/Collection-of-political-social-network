@@ -1,12 +1,18 @@
-## Assignment 0
+## Collection of Political Social Network
 
-**50 points**  
+Introduction
+
+•	The goal was to use the Twitter API to construct a social network of 4 U.S. presidential candidates.
+•	Analyzed the number of shared accounts followed by each pair of candidates.
+•	Created a networkx undirected Graph, added each candidate and friend as a node (only add friends to the graph if they are followed by more than one candidate)
 
 
-1. Get started with git and python by following the instructions at [Setup.md](Setup.md).
-  
-2. Complete the data collection assignment, following the instructions in [a0.py](a0.py).
+DataSource
 
-3. Complete the short answer questions in [ShortAnswer.txt](ShortAnswer.txt).
+Twitter
+Prerequisite modules
 
-3. Push your all your code and supporting files (e.g., .png) to your **private** GitHub repo in the folder `a0/`.
+networkx
+Download http://networkx.github.io/ or pip install networkx
+TwitterAPI
+Download https://github.com/geduldig/TwitterAPI or pip install TwitterAPI
